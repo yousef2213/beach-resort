@@ -5,7 +5,7 @@ export default function RoomList({rooms}) {
     if(rooms.length === 0 ){
         return(
             <div className="empty-search">
-                <h3>مفيش اقل من كدا يلا</h3>
+                <h3>no more </h3>
             </div>
         )
     }
